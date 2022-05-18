@@ -1,0 +1,15 @@
+.loading-screen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .spinner-screen {
+    .spinner-border {
+      border-color: $p;
+      border-right-color: transparent;
+    }
+  }
+}

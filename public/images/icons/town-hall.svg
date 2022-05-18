@@ -1,0 +1,10 @@
+<svg id="town-hall" xmlns="http://www.w3.org/2000/svg" width="47.24" height="47.24" viewBox="0 0 47.24 47.24">
+  <path id="Path_127" data-name="Path 127" d="M168.159,5.69h-2.768v4.665A9.637,9.637,0,0,0,159.6,7.265V0h-2.768V7.265a9.637,9.637,0,0,0-5.786,3.091V5.69h-2.768V15.44h19.877V5.69Z" transform="translate(-134.601)" fill="#810808"/>
+  <path id="Path_128" data-name="Path 128" d="M241.56,262.088a1.468,1.468,0,1,0-1.467-1.467A1.469,1.469,0,0,0,241.56,262.088Z" transform="translate(-217.941 -235.242)" fill="#810808"/>
+  <path id="Path_129" data-name="Path 129" d="M240.093,423.982h2.935V432.1h-2.935Z" transform="translate(-217.941 -384.863)" fill="#810808"/>
+  <path id="Path_130" data-name="Path 130" d="M398.931,142.168v-6.184h-2.768v6.184h-2.449v4.313h9.53Z" transform="translate(-357.388 -123.437)" fill="#909090"/>
+  <path id="Path_131" data-name="Path 131" d="M393.714,279.757v21.428h4.073v-5.766h2.768v5.766h4.073V279.757Zm6.841,10.022h-2.768V283.03h2.768Z" transform="translate(-357.388 -253.945)" fill="#909090"/>
+  <path id="Path_132" data-name="Path 132" d="M0,301.185H4.073v-5.766H6.841v5.766h4.073V279.757H0ZM4.073,283.03H6.841v6.749H4.073Z" transform="translate(0 -253.945)" fill="#909090"/>
+  <path id="Path_133" data-name="Path 133" d="M22.081,135.984H19.313v6.184L15,146.481h9.529v-4.313H22.081Z" transform="translate(-13.616 -123.437)" fill="#909090"/>
+  <path id="Path_134" data-name="Path 134" d="M148.282,226.374h5.7V215.485h8.471v10.889h5.7V197.342H148.282Zm9.938-26.1a4.235,4.235,0,1,1-4.235,4.236A4.24,4.24,0,0,1,158.22,200.277Z" transform="translate(-134.601 -179.134)" fill="#810808"/>
+</svg>

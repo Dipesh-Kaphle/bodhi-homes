@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="20" viewBox="0 0 15 20">
+  <g id="pin" transform="translate(-64)">
+    <g id="Group_637" data-name="Group 637" transform="translate(64)">
+      <path id="Path_171" data-name="Path 171" d="M71.5,0A7.508,7.508,0,0,0,64,7.5c0,5.533,6.92,12.109,7.214,12.387a.417.417,0,0,0,.571,0C72.08,19.609,79,13.033,79,7.5A7.508,7.508,0,0,0,71.5,0Zm0,11.667A4.167,4.167,0,1,1,75.667,7.5,4.172,4.172,0,0,1,71.5,11.667Z" transform="translate(-64)" fill="maroon"/>
+    </g>
+  </g>
+</svg>

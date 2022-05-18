@@ -1,0 +1,84 @@
+body {
+  @include pfont();
+  background: #eeeeee;
+  overflow-x: hidden;
+}
+
+.pfont {
+  @include pfont();
+}
+
+.sfont {
+  @include sfont();
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #505050;
+
+  &:hover {
+    color: #505050;
+    text-decoration: none;
+  }
+}
+
+.bar-of-progress {
+  z-index: 50;
+}
+
+.gap {
+  column-gap: 15px;
+  row-gap: 30px;
+}
+.rounded {
+  border-radius: 10px;
+}
+.input {
+  padding: 10px 20px;
+  border: 1px solid #cecece;
+  background-color: transparent;
+  border-radius: 15px;
+  width: 100%;
+  height: auto !important;
+  transition: all 0.3s ease-in-out;
+  &:focus {
+    border-color: $p;
+    outline: none;
+    box-shadow: none;
+  }
+}
+.mapdesign {
+  height: 350px;
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid #cecece;
+}
+::selection {
+  background-color: $p;
+  color: #fff;
+}
+.bg_w {
+  background-color: #fff;
+}
+.p {
+  padding: 15px;
+}
+
+.text_error {
+  color: rgba(192, 10, 10, 0.856);
+  font-size: 12px;
+  margin: 7px 4px;
+  display: block;
+}
+
+.infowrapper {
+  padding: 30px;
+  background-color: rgba($p, 0.08);
+  border-radius: 15px;
+}

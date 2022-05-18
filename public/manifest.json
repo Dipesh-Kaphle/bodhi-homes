@@ -1,0 +1,21 @@
+{
+  "short_name": "The Bodhi Homes",
+  "name": "The Bodhi Homes",
+  "icons": [
+    {
+      "src": "/Icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/Icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#800000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#800000"
+}

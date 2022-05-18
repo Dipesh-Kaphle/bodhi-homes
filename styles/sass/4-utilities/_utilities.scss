@@ -1,0 +1,259 @@
+.textwrapper {
+  .f10 {
+    font-size: 10px !important;
+  }
+
+  .f11 {
+    font-size: 11px !important;
+  }
+
+  .f12 {
+    font-size: 12px !important;
+  }
+
+  .f13 {
+    font-size: 13px !important;
+  }
+
+  .f14 {
+    font-size: 14px !important;
+  }
+
+  .f15 {
+    font-size: 15px !important;
+  }
+
+  .f16 {
+    font-size: 16px !important;
+  }
+
+  .f17 {
+    font-size: 17px !important;
+  }
+
+  .f18 {
+    font-size: 18px !important;
+  }
+
+  .f19 {
+    font-size: 19px !important;
+  }
+
+  .f20 {
+    font-size: 20px !important;
+  }
+
+  .f22 {
+    font-size: 22px !important;
+  }
+
+  .f24 {
+    font-size: 24px !important;
+  }
+
+  .f26 {
+    font-size: 26px !important;
+  }
+
+  .f28 {
+    font-size: 28px !important;
+  }
+
+  .f30 {
+    font-size: 30px !important;
+  }
+
+  .f35 {
+    font-size: 35px !important;
+  }
+
+  .f40 {
+    font-size: 40px !important;
+  }
+
+  .f45 {
+    font-size: 45px !important;
+  }
+
+  .f50 {
+    font-size: 50px !important;
+  }
+
+  .f55 {
+    font-size: 55px !important;
+  }
+
+  .f60 {
+    font-size: 60px !important;
+  }
+
+  .fwl {
+    font-weight: 300;
+  }
+
+  .fwm {
+    font-weight: 500;
+  }
+
+  .fwb {
+    font-weight: 700;
+  }
+
+  .tcp {
+    color: $p !important;
+  }
+
+  .tcb {
+    color: $b !important;
+  }
+
+  .text_w {
+    color: #fff !important;
+  }
+
+  .lhn {
+    line-height: 1.5rem;
+  }
+}
+
+.buttonwrapper {
+  .btn_circle {
+    background-color: #fff;
+    border-radius: 40px !important;
+    width: 40px !important;
+    height: 40px;
+    padding: 0px;
+    line-height: 40px;
+    transition: all 0.5s ease;
+
+    &:hover {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .btn_white {
+    background-color: #fff;
+  }
+
+  .btn {
+    border-radius: 0px;
+    cursor: pointer;
+
+    img {
+      height: 15px;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .btn_p {
+    background-color: $p;
+    color: $w;
+    border-radius: 15px;
+
+    &:hover {
+      background-color: rgba($p, 0.8);
+    }
+  }
+
+  .btn_underlined {
+    position: relative;
+    padding: 10px 0;
+    cursor: pointer;
+
+    img {
+      height: 15px;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background-color: #e0e0e0;
+      content: "";
+      bottom: 0;
+      left: 0;
+    }
+
+    &::before {
+      position: absolute;
+      height: 2px;
+      width: 0;
+      background-color: $p;
+      content: "";
+      bottom: 0;
+      left: 0;
+      z-index: 9;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1 !important;
+}
+
+.flex2 {
+  flex: 2 !important;
+}
+
+.flex3 {
+  flex: 3 !important;
+}
+
+.flex4 {
+  flex: 4 !important;
+}
+
+.flex5 {
+  flex: 5 !important;
+}
+
+.flex6 {
+  flex: 6 !important;
+}
+
+.flex7 {
+  flex: 7 !important;
+}
+
+.flex8 {
+  flex: 8 !important;
+}
+
+.flex9 {
+  flex: 9 !important;
+}
+
+.flex10 {
+  flex: 10 !important;
+}
+
+.flex11 {
+  flex: 11 !important;
+}
+
+.flex12 {
+  flex: 12 !important;
+}
+
+.bg_p {
+  background-color: $p;
+}
+
+.border-radius-15 {
+  border-radius: 15px !important;
+}

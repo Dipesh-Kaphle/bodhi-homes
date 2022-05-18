@@ -1,0 +1,64 @@
+.gallery {
+    .galleryImagesExterior {
+        .imagewrapper {
+            margin-bottom: 30px;
+
+            img {
+                border-radius: 4px;
+                max-height: 450px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .houses {
+
+        .house {
+            min-width: 200px;
+            cursor: pointer;
+
+            .image {
+                margin-bottom: -20px;
+                position: relative;
+                overflow: hidden;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    height: 30px;
+                    width: 100%;
+                    bottom: 0px;
+                    left: 0;
+                    z-index: 99;
+                    right: 0;
+
+                    background: linear-gradient(to bottom, rgba(243, 243, 243, 0), rgba(243, 243, 243, 0.5), rgba(243, 243, 243, 0.7), #F3F3F3);
+                }
+
+            }
+
+            .details {
+                background-color: #F3F3F3;
+                border-radius: 10px;
+                padding-bottom: 30px;
+                padding-top: 30px;
+            }
+        }
+
+        .active {
+            .image {
+                &::after {
+                    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), #fff) !important;
+                }
+
+            }
+
+            .details {
+                background-color: #fff !important;
+
+            }
+        }
+    }
+
+}

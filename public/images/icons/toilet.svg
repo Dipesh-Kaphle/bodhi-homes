@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.7" height="20.139" viewBox="0 0 17.7 20.139">
+  <g id="toilet" transform="translate(-31)">
+    <g id="Group_1154" data-name="Group 1154" transform="translate(32.18 10.659)">
+      <g id="Group_1153" data-name="Group 1153">
+        <path id="Path_93" data-name="Path 93" d="M76.286,271H61v1.77a4.193,4.193,0,0,0,2.041,3.6l-.843,3.374a.59.59,0,0,0,.572.733h8.26a.59.59,0,0,0,.572-.733l-.722-2.889A6.528,6.528,0,0,0,76.286,271Z" transform="translate(-61 -271)" fill="maroon"/>
+      </g>
+    </g>
+    <g id="Group_1156" data-name="Group 1156" transform="translate(40.44 7.119)">
+      <g id="Group_1155" data-name="Group 1155">
+        <path id="Path_94" data-name="Path 94" d="M278.08,181H271v2.36h7.08a1.18,1.18,0,1,0,0-2.36Z" transform="translate(-271 -181)" fill="maroon"/>
+      </g>
+    </g>
+    <g id="Group_1158" data-name="Group 1158" transform="translate(32.051 3.502)">
+      <g id="Group_1157" data-name="Group 1157" transform="translate(0 0)">
+        <rect id="Rectangle_51" data-name="Rectangle 51" width="7.355" height="5.954" fill="maroon"/>
+      </g>
+    </g>
+    <g id="Group_1160" data-name="Group 1160" transform="translate(31)">
+      <g id="Group_1159" data-name="Group 1159">
+        <path id="Path_95" data-name="Path 95" d="M39.26,0H32.18A1.18,1.18,0,0,0,31,1.18v.59a.59.59,0,0,0,.59.59h8.26a.59.59,0,0,0,.59-.59V1.18A1.18,1.18,0,0,0,39.26,0Z" transform="translate(-31 0)" fill="maroon"/>
+      </g>
+    </g>
+  </g>
+</svg>

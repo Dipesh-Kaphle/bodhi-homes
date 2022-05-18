@@ -1,0 +1,224 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  .singleHomePageContent {
+    margin-top: 200px;
+  }
+  .backtohomeAnimation {
+    opacity: 0;
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    z-index: 100;
+  }
+
+  // .houseColumn {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  // }
+
+  .homewrapper {
+    position: relative;
+    // width: 100%;
+    // height: auto;
+
+    .loveandcompare {
+      opacity: 0;
+      position: absolute;
+      top: 30px;
+      right: 0;
+      z-index: 20;
+    }
+    .mainlocation {
+      position: absolute;
+      top: 100px;
+      right: -70px;
+      transform: rotate(90deg);
+      font-weight: bold;
+      display: flex;
+      z-index: 100;
+      img {
+        width: 15px;
+        margin-right: 5px;
+      }
+    }
+    .homecounter {
+      width: 100%;
+      .counterprogress {
+        height: 3px !important;
+        background-color: #cbcbcb !important;
+        width: 100%;
+        position: relative;
+        .progressstatus {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-color: $p;
+          height: 3px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      .homecounter {
+      }
+    }
+  }
+
+  .bigimagewrapper {
+    position: relative;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    .homename {
+      position: absolute;
+      top: -15%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      font-size: 120px;
+      @include sfont();
+      color: #dcdcdc;
+      width: 100%;
+      letter-spacing: 30px;
+    }
+
+    .bigimage {
+      cursor: pointer;
+      position: relative;
+      height: 400px;
+      max-height: 400px;
+      object-fit: contain;
+      width: 90%;
+      max-width: 90%;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        transform: scale(0.97);
+      }
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    top: unset;
+    bottom: -10px;
+    height: 40px;
+    width: 40px;
+    border: 10px solid #eeeeee;
+    background-color: #fff;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px !important;
+    box-sizing: content-box;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 9999;
+    &::before {
+      content: "";
+    }
+    &:hover {
+      background-color: $p;
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  .arrowLeft {
+    left: -20px;
+    transform: scaleX(-1);
+  }
+
+  .arrowRight {
+    right: -20px;
+  }
+
+  .homethumbnails {
+    .homethumbnail {
+      padding: 0 10px;
+      transition: all 0.3s linear;
+      &:hover {
+        transform: scale(0.95);
+      }
+      .image {
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(255, 255, 255, 1);
+          filter: blur(5px);
+          width: 100%;
+          height: 10px;
+          z-index: 9999;
+        }
+        img {
+          height: 90px;
+        }
+      }
+      // .activeImage {
+      //   transition: all 0.3s linear;
+      //   img {
+      //     transform: scale(1.2);
+      //   }
+      // }
+      .name {
+        cursor: pointer;
+        background-color: #fff;
+        padding: 15px;
+        padding-top: 30px;
+        display: flex;
+        border-radius: 15px;
+        margin-top: -15px;
+        column-gap: 15px;
+        .textwrapper {
+          width: 100%;
+          display: flex;
+          padding: 10px 20px;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .title {
+          margin: 0;
+          padding: 0px;
+          font-size: 18px;
+        }
+
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+  .scrollDown {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    opacity: 0;
+  }
+  .downloadButton {
+    background-color: $p !important;
+  }
+}
+
+.footerwarp {
+  border-radius: 14px 14px 0 0;
+  font-size: 14px;
+}
+
+.joinvibercircle {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
